@@ -6,7 +6,7 @@ import { BsEnvelopeFill, BsWhatsapp, BsInstagram } from 'react-icons/bs';
 
 export default function Footer() {
     return (
-        <div className="flex flex-row bg-black text-white p-5">
+        <div id="contact" className="flex flex-col md:flex-row  bg-black text-white p-5">
             <div>
                 <div className="text-3xl">PT Universal Palm Indonesia</div>
                 <div className="mt-3">We also continue to update the information about the company through social media, for the latest information you can follow our social media.</div>
@@ -24,7 +24,7 @@ export default function Footer() {
                     autoplay
                     loop
                     src={phone}
-                    style={{ height: '300px', width: '300px' }}
+                    className="w-full md:w-[300px]"
                 >
                 </Player>
             </div>

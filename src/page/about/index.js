@@ -17,7 +17,7 @@ export default function About() {
                     autoplay
                     loop
                     src={animate}
-                    style={{ height: '300px', width: '300px' }}
+                    className="w-full md:w-[300px]"
                 >
                 </Player>
             </div>

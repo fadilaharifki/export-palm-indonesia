@@ -1,44 +1,36 @@
-import { Navbar, Container, Offcanvas, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap"
+import React from "react"
 
 export default function NavBarMenu() {
     return (
-        <Navbar bg="light" expand={false}>
-            <Container fluid>
-                <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
-                <Navbar.Toggle aria-controls="offcanvasNavbar" />
-                <Navbar.Offcanvas
-                    id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel"
-                    placement="end"
-                >
-                    <Offcanvas.Header closeButton>
-                        <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
-                    </Offcanvas.Header>
-                    <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Home</Nav.Link>
-                            <Nav.Link href="#action2">Link</Nav.Link>
-                            <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">
-                                    Something else here
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                        </Nav>
-                        <Form className="d-flex">
-                            <FormControl
-                                type="search"
-                                placeholder="Search"
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
-                        </Form>
-                    </Offcanvas.Body>
-                </Navbar.Offcanvas>
-            </Container>
-        </Navbar>
+        <nav id="home" className="fixed-top navbar navbar-expand-lg navbar-light bg-success">
+            <div className="container-fluid">
+                <a className="navbar-brand text-white" href="#home">Logo</a>
+                <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon text-white" />
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link text-white active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" href="#about">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" href="#feature">Feature</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" href="#product">Product</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" href="#teams">Team</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     )
 }

@@ -8,7 +8,7 @@ export default function Product() {
             <div className="font-bold text-center text-3xl">
                 Product
             </div>
-            <div className="flex flex-row mt-5">
+            <div className="flex flex-col md:flex-row  mt-5">
                 <div className="mr-10">
                     <img src="https://picsum.photos/id/123/1200/600" width={200} height={200} alt="image" />
                 </div>

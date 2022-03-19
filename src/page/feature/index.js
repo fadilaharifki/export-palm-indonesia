@@ -10,7 +10,7 @@ export default function Feature() {
             <div className="font-bold text-center text-3xl">
                 Our Key Features
             </div>
-            <div className="flex flex-row mt-3">
+            <div className="flex flex-col md:flex-row mt-3">
                 <div className="p-3">
                     <div>
                         <Player

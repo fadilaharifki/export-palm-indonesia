@@ -11,8 +11,8 @@ export default function Teams() {
             <div className="font-bold text-center text-3xl">
                 Our Team
             </div>
-            <div className="flex flex-row mt-10">
-                <div className="flex flex-col justify-start items-center w-6/12 p-2">
+            <div className="flex flex-col md:flex-row mt-10">
+                <div className="flex flex-col justify-start items-center w-full md:w-6/12 p-2">
                     <img src={fadil} alt="photo" width={150} />
                     <div className="text-center text-2xl text-green-700 py-3">Fadilah Arifki, S.Math</div>
                     <div className="italic text-center">Chieft Executive Officier (CEO)</div>
@@ -23,7 +23,7 @@ export default function Teams() {
                         <div className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><BsInstagram color="white" size={30} /></div>
                     </div>
                 </div>
-                <div className="flex flex-col justify-start items-center w-6/12 p-2">
+                <div className="flex flex-col justify-start items-center w-full md:w-6/12 p-2">
                     <img src={dama} alt="photo" width={150} />
                     <div className="text-center text-2xl text-green-700 py-3">Dama Choiruldin A, Amd.Kom</div>
                     <div className="italic text-center">Chieft Operational Officier (COO)</div>

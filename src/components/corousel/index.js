@@ -4,7 +4,7 @@ import { UncontrolledCarousel } from "reactstrap";
 
 export default function Corousel() {
     return (
-        <UncontrolledCarousel
+        <UncontrolledCarousel className='pt-10'
             items={[
                 {
                     altText: 'Slide 1',
