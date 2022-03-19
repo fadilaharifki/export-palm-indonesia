@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div id="contact" className="flex flex-col md:flex-row  bg-black text-white p-5">
             <div>
-                <div className="text-3xl">PT Universal Palm Indonesia</div>
+                <div className="text-3xl">PT Export Agri Jaya Abadi Indonesia</div>
                 <div className="mt-3">We also continue to update the information about the company through social media, for the latest information you can follow our social media.</div>
                 <div className="mt-3">Email : upalmindonesia@gmail.com</div>
                 <div>Phone : +62 895-0582-2191</div>
