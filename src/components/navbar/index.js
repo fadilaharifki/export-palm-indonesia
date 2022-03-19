@@ -4,7 +4,7 @@ export default function NavBarMenu() {
     return (
         <nav id="home" className="fixed-top navbar navbar-expand-lg navbar-light bg-success">
             <div className="container-fluid">
-                <a className="navbar-brand text-white" href="#home">Logo</a>
+                <a className="navbar-brand text-white" href="#home">Export Palm Indonesia</a>
                 <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon text-white" />
                 </button>
