@@ -11,22 +11,22 @@ export default function NavBarMenu() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link text-white active" aria-current="page" href="/#">Home</a>
+                            <a className="nav-link text-white hover:bg-green-600/100 rounded-lg px-2" aria-current="page" href="/#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="/#about">About</a>
+                            <a className="nav-link text-white hover:bg-green-600/100 rounded-lg px-2" href="/#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="/#feature">Feature</a>
+                            <a className="nav-link text-white hover:bg-green-600/100 rounded-lg px-2" href="/#feature">Feature</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="/#product">Product</a>
+                            <a className="nav-link text-white hover:bg-green-600/100 rounded-lg px-2" href="/#product">Product</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="/#teams">Team</a>
+                            <a className="nav-link text-white hover:bg-green-600/100 rounded-lg px-2" href="/#teams">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="/#contact">Contact</a>
+                            <a className="nav-link text-white hover:bg-green-600/100 rounded-lg px-2" href="/#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
