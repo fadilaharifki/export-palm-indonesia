@@ -1,6 +1,4 @@
 import React from "react"
-import { Player } from '@lottiefiles/react-lottie-player';
-import animate from '../../components/lotties/people.json'
 import fadil from '../../components/assets/fadil.png'
 import dama from '../../components/assets/dama.png'
 import { FaFacebookF } from 'react-icons/fa';
