@@ -1,6 +1,4 @@
 import React from "react"
-import { Player } from '@lottiefiles/react-lottie-player';
-import animate from '../../components/lotties/people.json'
 
 export default function Product() {
     return (
