@@ -10,19 +10,13 @@ export default function Corousel() {
                     altText: 'Slide 1',
                     caption: '',
                     key: 1,
-                    src: 'https://picsum.photos/id/123/1200/600'
+                    src: 'https://img.jakpost.net/c/2020/08/28/2020_08_28_103278_1598607181._large.jpg'
                 },
                 {
                     altText: 'Slide 2',
                     caption: '',
                     key: 2,
-                    src: 'https://picsum.photos/id/456/1200/600'
-                },
-                {
-                    altText: 'Slide 3',
-                    caption: '',
-                    key: 3,
-                    src: 'https://picsum.photos/id/678/1200/600'
+                    src: 'https://chainreactionresearch.com/wp-content/uploads/2019/10/China-to-ramp-up-Indonesian-palm-oil-exports-offsetting-EU-slump.jpg'
                 }
             ]}
         />
