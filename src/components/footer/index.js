@@ -14,7 +14,7 @@ export default function Footer() {
                 <div>Phone : +62 895-0582-2191</div>
                 <div className="flex flex-row mt-3">
                     <div className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a style={{ color: 'white' }} href="mailto:exportagrindo@gmail.com"><BsEnvelopeFill size={30} /></a></div>
-                    <div className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a style={{ color: 'white' }} href="https://wa.me/089505822191"><BsEnvelopeFill size={30} /></a><BsWhatsapp size={30} /></div>
+                    <div className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a style={{ color: 'white' }} href="https://wa.me/089505822191"></a><BsWhatsapp size={30} /></div>
                     <div style={{ color: 'white' }} className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><FaFacebookF size={30} /></div>
                     <div style={{ color: 'white' }} className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><BsInstagram size={30} /></div>
                 </div>
