@@ -29,7 +29,7 @@ export default function Teams() {
                     <div className="italic text-center">Chieft Operational Officier (COO)</div>
                     <div className="text-center text-sm text-gray-700">Do not work half-assed, if you have started a business then work seriously. Do not stop in the middle of the road because it will waste the wealth, energy, time that we have prepared to start a business.</div>
                     <div className="flex flex-row mt-3">
-                        <a style={{ color: 'white' }} href="#" className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><AiFillLinkedin color="white" size={30} /></a>
+                        <div className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><AiFillLinkedin color="white" size={30} /></div>
                         <a style={{ color: 'white' }} href="https://facebook.com/damachoiruldinahlan" className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><FaFacebookF color="white" size={30} /></a>
                         <a style={{ color: 'white' }} href="https://www.instagram.com/dama_ahlan28" className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><BsInstagram color="white" size={30} /></a>
                     </div>
