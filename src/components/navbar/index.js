@@ -1,10 +1,16 @@
 import React from "react"
+import Logo from '../assets/logowhite.png'
 
 export default function NavBarMenu() {
     return (
         <nav id="home" className="fixed-top navbar navbar-expand-lg navbar-light bg-success">
             <div className="container-fluid">
-                <a className="navbar-brand text-white" href="/#home">Export Agri Indonesia</a>
+                <a className="navbar-brand text-white" href="/#home">
+                    <img src={Logo} alt="Export Agriculture Indonesia" width={60} />
+                </a>
+                <a className="navbar-brand text-white" href="/#home" >
+                    Export Agriculture Indonesia
+                </a>
                 <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon text-white" />
                 </button>
