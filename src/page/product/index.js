@@ -1,5 +1,5 @@
 import React from "react"
-import Sawit from "../../components/assets/sawit1.png"
+import Sawit from "../../components/assets/sawit1.jpg"
 
 export default function Product() {
     return (
