@@ -10,7 +10,7 @@ export default function Footer() {
             <div>
                 <div className="text-3xl">PT Export Agri Jaya Abadi Indonesia</div>
                 <div className="mt-3">We also continue to update the information about the company through social media, for the latest information you can follow our social media.</div>
-                <div className="mt-3">Email : exportagrindonesia@gmail.com</div>
+                <div className="mt-3">Email : exportagrindo@gmail.com</div>
                 <div>Phone : +62 895-0582-2191</div>
                 <div className="flex flex-row mt-3">
                     <div className="bg-green-700 p-2 mr-2 rounded-full cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a style={{ color: 'white' }} href="mailto:exportagrindo@gmail.com"><BsEnvelopeFill size={30} /></a></div>
